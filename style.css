@@ -1,7 +1,21 @@
 body{
+    margin:0;
     font-family: 'Signika', sans-serif;
 }
-h1{
+section{
+    height: 500px;
+    padding-bottom: 0px;
+}
+.topbanner{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+.greatings{
+    font-size: 50px;
+    text-transform: uppercase;
+    color: rgb(23, 20, 220);
+}
+h2{
     font-size: 40px;
 }
 .name-highlight{
@@ -15,5 +29,47 @@ h1{
 }
 .bpart img{
     margin-top: 5%;
-    width:80%;
+    width:70%;
+}
+.plbutton{
+    text-decoration: none;
+    background-color: rgb(255, 60, 0);
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 500;
+}
+.middlepart{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.exp-area h2{
+    color: crimson;
+}
+.bpart h2{
+    font-size: 32px;
+    color:rgb(255, 60, 0) ;
+}
+.bpart h3{
+  color: rgb(23, 20, 220) ;  
+}
+.single-exp{
+    box-shadow: 10px 10px 30px gray;
+    border-radius: 10px;
+}
+.exp-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#exp{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,crimson,tomato,blue);
+    border-image-slice: 1;
+}
+.fpart p{
+    text-align: center;
+    font-weight: 500;
+    color: crimson;
 }
